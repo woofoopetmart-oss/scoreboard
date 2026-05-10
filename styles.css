@@ -1,0 +1,49 @@
+#board-el {
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    border: 1px solid #70cdf4;
+    border-radius: 15px;
+    background-color: darkblue;
+}
+
+.team {
+    color: whitesmoke;
+    margin: 40px auto 15px;
+}
+
+.score {
+    font: 100px 'Digital-7';
+    padding: 20px 30px;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    background-color: black;
+    margin: 0 auto;
+    color: rgb(251, 41, 41);
+}
+
+.cmd {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 15 45px;
+}
+
+.add1, .add2, .add3 {
+    font: 20px 'Digital-7';
+    color: greenyellow;
+    font-weight: bold;
+    background-color: darkblue;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7-mono-italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
